@@ -19,7 +19,7 @@ feryl = User.create(username: "Feryl")
 trilobite = User.create(username: "Trilobite")
 
 drawing1 = Drawing.create(image: "https://i.pinimg.com/originals/20/2a/15/202a15c60320c8b2b6b9900040a2b0c1.png", user_id: 2)
-drawing2 = Drawing.create(image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoikr7ZOQ1ti4rrfu0ZtQITFBcJ27Oxrm-Nw&usqp=CAU", user_id: 1)
+drawing2 = Drawing.create(image: "https://tipsmake.com/data/images/how-to-draw-a-panda-using-microsoft-paint-picture-11-uttL74LNo.jpg", user_id: 1)
 drawing3 = Drawing.create(image: "https://www.trustedreviews.com/wp-content/uploads/sites/54/2018/01/MSPaint_JSPaint.jpg", user_id: 3)
 drawing4 = Drawing.create(image: "https://i.pinimg.com/originals/f9/a4/99/f9a4998c208ec0337ea4e3c245fc4528.jpg", user_id: 2)
 
