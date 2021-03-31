@@ -6,6 +6,7 @@ Rails.application.routes.draw do
 
   get "/drawings", to: "drawings#index"
   post "/drawings", to: "drawings#create"
+  get "/drawings/:id", to: "drawings#show"
 
   get "/users", to: "users#index"
   get "/users/:id", to: "users#show"
